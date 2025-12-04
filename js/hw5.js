@@ -7,7 +7,7 @@ const newGameBtn = document.getElementById("new-game");
 // показуємо першу клавішу
 keyElement.textContent = keys[currentKeyIndex];
 
-// keydown — перевірка клавіші
+// keydown - перевірка клавіші
 document.addEventListener("keydown", (event) => {
   const pressedKey = event.key.toLowerCase();
 
